@@ -33,6 +33,10 @@ class Song
       @@genres.uniq
    
     end
+    
+    def self.genre_count
+      @@genres = hash.new{:genre => @@count}
+    end
 end
 
 
