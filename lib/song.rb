@@ -39,7 +39,7 @@ class Song
 
         @@genres.each do |g|
              counts[g] += 1
-             binding.pry
+             #binding.pry
          end
         counts
     end
