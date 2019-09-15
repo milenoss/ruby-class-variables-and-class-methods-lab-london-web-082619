@@ -14,7 +14,7 @@ class Song
     @@count += 1
     @@artist << artist
     @@all << self
-    binding.pry
+    #binding.pry
   end
   
   def self.all
