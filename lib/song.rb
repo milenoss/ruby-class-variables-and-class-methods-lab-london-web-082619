@@ -3,7 +3,7 @@ require 'set'
 
 class Song 
  attr_reader :name, :artist, :genre
- @@count []
+ @@count = []
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
