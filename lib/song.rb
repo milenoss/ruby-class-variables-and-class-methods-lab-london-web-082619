@@ -7,14 +7,15 @@ class Song
  @@artist = []
  @@genres = []
  @@all = []
-  def initialize(name, artist, genre)
+  def initialize(name, artist, genres)
     @name = name
     @artist = artist
     @genre = genre
+   
     @@count += 1
+   
     @@artist << artist
-    @genres << genres
-    #binding.pry
+    @@genres << genres
   end
   
 
