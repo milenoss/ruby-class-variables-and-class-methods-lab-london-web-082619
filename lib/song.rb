@@ -17,15 +17,15 @@ class Song
     #binding.pry
   end
   
-  def self.all
-    @@all
-    
-    binding.pry
-  # def self.artist
-  #   @@artist
+
+   def self.artist
+    @@artist
   
-  # end
-end
+    end
+    
+    def self.genres 
+      @@genres
+    end
 end
 
 
