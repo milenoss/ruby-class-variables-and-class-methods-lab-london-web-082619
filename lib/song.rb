@@ -2,9 +2,10 @@ require 'set'
 
 
 class Song 
- attr_reader :name, :artist, :genre
+ attr_accessor :name, :artist, :genre
  @@count = 0
  @@artist = []
+ @@genre = []
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
@@ -14,10 +15,10 @@ class Song
     
   end
   
-  def self.artist
-    @@artist
+  # def self.artist
+  #   @@artist
   
-  end
+  # end
   
 end
 
