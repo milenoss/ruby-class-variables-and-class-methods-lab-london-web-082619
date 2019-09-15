@@ -35,8 +35,12 @@ class Song
     end
     
     def self.genre_count
-      count = Hash.new 0 
-      @@genres.each{|d| count[d]+= 1}
+     counts = Hash.new 0
+
+        @@genres.each do |g|
+             counts[g] += 1
+         end
+        counts
     end
 end
 
