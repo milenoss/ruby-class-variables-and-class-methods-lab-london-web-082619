@@ -6,15 +6,19 @@ class Song
  @@count = 0
  @@artist = []
  @@genre = []
+ @@all = []
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
     @genre = genre
     @@count += 1
     @@artist << artist
+    @@all << self
     binding.pry
   end
   
+  def self.all
+    @@all
   # def self.artist
   #   @@artist
   
