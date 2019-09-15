@@ -41,6 +41,7 @@ class Song
              counts[g] += 1
          end
         counts
+        binding.pry
     end
 end
 
