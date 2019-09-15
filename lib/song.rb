@@ -35,7 +35,7 @@ class Song
     end
     
     def self.genre_count
-      @@genres = {"genre"=> @@count } 
+      @@genres = {"@genre"=> @@count } 
       @@genres
   end
 end
