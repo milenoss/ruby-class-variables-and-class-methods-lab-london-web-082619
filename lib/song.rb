@@ -1,5 +1,5 @@
 require 'set'
-
+require 'pry'
 
 class Song 
  attr_accessor :name, :artist, :genre
@@ -12,7 +12,7 @@ class Song
     @genre = genre
     @@count += 1
     @@artist << artist
-    
+    binding.pry
   end
   
   # def self.artist
