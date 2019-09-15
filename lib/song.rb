@@ -15,7 +15,6 @@ class Song
     @@count += 1
    
     @@artist << artist
-    @@genres << genres
   end
   
 
