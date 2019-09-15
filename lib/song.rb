@@ -30,7 +30,7 @@ class Song
     end
     
     def self.genres 
-      @@genre.uniq
+      @@genres.uniq
    
     end
 end
