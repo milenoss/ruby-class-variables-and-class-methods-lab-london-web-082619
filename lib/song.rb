@@ -13,7 +13,7 @@ class Song
     @genre = genre
     @@count += 1
     @@artist << artist
-    @@all << self
+    @genres << genres
     #binding.pry
   end
   
