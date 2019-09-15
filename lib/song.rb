@@ -50,7 +50,8 @@ class Song
         counts[d] += 1
       end
       counts
-end
+    end
+  end
 
 
 
